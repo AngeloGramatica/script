@@ -1,4 +1,5 @@
-//Mobile Nav schliessen 
+//Mobile Nav schliessen
+//https://cdn.jsdelivr.net/gh/Gramatica-Design/script@v1.0.0/dropdown_footer.js
 document.addEventListener("DOMContentLoaded", function () {
   const hamburger = document.querySelector('.w-nav-button');
   const menu = document.querySelector('.w-nav-menu');
