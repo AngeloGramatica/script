@@ -1,0 +1,18 @@
+
+  /*GSAP Animation der Texte:
+Verhindert Flackern und mit Noscript ist garantiert, dass der Text auch dann dargestellt wird, wenn der Browser JS ausgeschalten hat*/
+  html:not(.gsap-not-found) h1, h2, div.heading-style-h2, [text-animated]
+  { 
+    visibility: hidden; 
+  }
+  .line-mask, .word-mask, .char-mask 
+  { 
+    padding-block: 0.1em; margin-block: -0.1em; 
+  }
+
+/*Keep this css code to improve the font quality*/
+  * {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -o-font-smoothing: antialiased;
+	}

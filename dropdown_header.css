@@ -1,0 +1,16 @@
+.nav-dd-list.open {
+  display: block;
+  height: auto;
+}
+
+.nav-dd-list {
+  overflow: hidden;
+  height: 0;
+  display: none;
+  transition: height 0.4s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.nav-dd-list.opening,
+.nav-dd-list.closing {
+  display: block;
+}
