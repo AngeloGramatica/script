@@ -1,0 +1,63 @@
+# -----------------------------------
+# macOS
+# -----------------------------------
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# -----------------------------------
+# Node.js
+# -----------------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# -----------------------------------
+# Logs
+# -----------------------------------
+logs
+*.log
+*.log.*
+*.out
+*.err
+
+# -----------------------------------
+# Environment files
+# -----------------------------------
+.env
+.env.local
+.env.*.local
+
+# -----------------------------------
+# Shopify CLI / Themes
+# -----------------------------------
+# Theme kit & Shopify CLI config
+config.yml
+.shopify-cli.yml
+.shopify-cli
+
+# Cache / tmp
+.cache/
+tmp/
+dist/
+build/
+
+# Local preview
+*.theme-check/
+theme-check.yml
+theme-check.json
+
+# -----------------------------------
+# IDE / Editor
+# -----------------------------------
+.vscode/
+.idea/
+*.swp
+*~
